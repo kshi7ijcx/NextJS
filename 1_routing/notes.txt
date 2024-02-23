@@ -1,0 +1,3 @@
+basic routing
+nested routing
+linking - create components folder to store client side components inside the root folder
