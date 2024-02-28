@@ -1,0 +1,17 @@
+-ignoring routes - (folder name)
+
+-dynamic routes - eg if we have 1000 users,
+it is not correct to create 1000 folders for each user,
+[folder name]
+'use client' on top
+dynamic routes provide {params} object
+{param.foldername} -> to retreive the value of endpoint 
+
+-Catch all Routes -> /project/mern/expense-tracker/user1
+used to capture all routes
+[...foldername]
+'use client' on top 
+{params} object store captured endpoints
+{params.foldername} -> foldername is an arrays for all routes
+
+-file not found -> create a file not-found.js inside app dir
