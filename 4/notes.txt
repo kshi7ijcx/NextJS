@@ -1,0 +1,6 @@
+redirect - allows user to be redirected to another url, can be used in client,server components, Route handlers, server actions
+redirect(path,type) -> type = replace (default) or push (default in server actions)
+
+client vs server components -> by default server component, 'use client' to create client component
+server components sit closer to the backend, therefore can perform tasks realted to backend/databases quickly
+client componnets are used when accessing browser apis, managing states, using already defined or custom hooks etc.
