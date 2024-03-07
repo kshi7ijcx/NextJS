@@ -1,0 +1,17 @@
+layouts -> create basic layout of the site, contains parts that are reused in several pages like navbar, header, footer
+usePathName -> requires client component, returns the current path of the page or route we are in
+conditional layout -> conditional render a layouts, only rendering it if user is in the correct route, using usePathName
+
+generateMetaData -> title and description of the page, used to improve SEO 
+gets contverted to meta tag in HTML when live
+
+Images -> images are placed in the public folder, <Image /> is used to render the images using the src and alt values
+nextJs auto optimizes the image size (compress) according to the given width and height to make pages load faster
+when using external image using src we need to specify the domain in next.config
+const nextConfig = {
+    images: {
+        domains: ['images.unsplash.com']
+    }
+};
+
+fonts -> in next we can import almost any google font
