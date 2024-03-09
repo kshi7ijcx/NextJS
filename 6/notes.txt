@@ -1,1 +1,9 @@
 fetch data using client components
+
+fetch data using server components -> cant use useState and useEffect in server
+we use async function to perform operations, console.log displays results in the terminal and not in browser console
+
+backend development -> GET method
+to create backend create api folder, specify endpoints, filename should be route.js
+functions should be named as GET()
+dynamic routes in backend -> [foldername]
