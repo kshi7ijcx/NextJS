@@ -1,0 +1,5 @@
+middleware -> create a middleware file
+we need config object to specify on which route the middleware should run
+
+environment varaibles -> store in .env.local file
+process.env.NAME -> to access the variables
